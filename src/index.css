@@ -8,16 +8,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .navbar {
-  background-color: #0b0b0d;
   color: white;
 }
 
-.navbar-words {
-  color: white;
+#toggle {
+  background-color: #dba01d;
 }
 
-.footer {
-  background-color: #0b0b0d;
+.move-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.top-and-bottom {
+  background-color: black;
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-words {
+    display: none !important;
+  }
+}
+
+#logo {
+  height: 10vh;
+  padding: 0;
+  margin: 0;
 }
 
 code {
@@ -27,7 +43,17 @@ code {
 .navbar-words {
   color: white;
 }
+
+.navlink {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 a:hover {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.349);
+  color: #dba01d;
 }
