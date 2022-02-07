@@ -4,9 +4,9 @@ import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 function Call() {
   return (
     <Container id="float">
-      <Container id="phone">
+      {/* <Container id="phone">
         <AiOutlinePhone /> 443-739-7882{" "}
-      </Container>
+      </Container> */}
 
       <Container id="email">
         <AiOutlineMail />
