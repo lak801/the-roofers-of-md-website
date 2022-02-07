@@ -51,6 +51,9 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Container id="call-container">
+        <Call />
+      </Container>
     </Navbar>
   );
 }
