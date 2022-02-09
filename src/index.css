@@ -29,7 +29,12 @@ body {
 }
 
 #thumbnail-img {
-  width: 30%;
+  width: 200px;
+}
+
+.keith-row {
+  border: solid;
+  padding: 4px;
 }
 
 .navbar {

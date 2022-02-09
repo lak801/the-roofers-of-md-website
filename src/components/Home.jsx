@@ -17,7 +17,10 @@ function Home() {
           </Card.Body>
         </Card>
         <Card className="cards" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="https://i.ibb.co/svrnrRk/silver-1.jpg" />
+          <Card.Img
+            variant="top"
+            src="https://i.ibb.co/ZBb0qG4/silicone-coating-real.jpg"
+          />
           <Card.Body>
             <Card.Title>Silver Coating</Card.Title>
             <Card.Text>
@@ -47,8 +50,8 @@ function Home() {
           <Card.Body>
             <Card.Title>TPO Roofs</Card.Title>
             <Card.Text>
-              20 year material warranty on TPO: the safest, most ecofriendly,
-              and
+              20 year material warranty on TPO. It comes with roofing insulation
+              for your property and is the safest material.
             </Card.Text>
           </Card.Body>
         </Card>
