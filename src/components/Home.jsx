@@ -19,7 +19,7 @@ function Home() {
         <Card className="cards" style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            src="https://i.ibb.co/ZBb0qG4/silicone-coating-real.jpg"
+            src="https://i.ibb.co/c8TV14M/coating-1.jpg"
           />
           <Card.Body>
             <Card.Title>Silver Coating</Card.Title>
@@ -31,7 +31,7 @@ function Home() {
         <Card className="cards" style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            src="https://i.ibb.co/c8TV14M/coating-1.jpg"
+            src="https://i.ibb.co/ZBb0qG4/silicone-coating-real.jpg"
           />
           <Card.Body>
             <Card.Title>Silicone Coating</Card.Title>
