@@ -47,17 +47,18 @@ body {
   text-align: center;
 }
 
-#call-container,
-#email {
+#email,
+#phone {
   display: flex;
+}
+
+#email-text {
+  width: 80%;
+  padding-left: 4px;
 }
 
 #call-container {
   width: 20%;
-}
-
-#email p {
-  padding-left: 8px;
 }
 
 #toggle {
