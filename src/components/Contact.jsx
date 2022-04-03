@@ -4,7 +4,9 @@ function Contact() {
   return (
     <Container className="contact">
       <h5>
-        Please contact at <br></br> info@theroofersofmd.com{" "}
+        Email us at info@theroofersofmd.com
+        <br></br>
+        or call us at (443-569-1511)
       </h5>
     </Container>
   );
