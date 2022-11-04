@@ -1,5 +1,4 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
 
 class Submit extends React.Component {
   constructor(props) {
@@ -7,7 +6,7 @@ class Submit extends React.Component {
     this.state = {
       name: "",
       email: "",
-      feedback: ""
+      feedback: "",
     };
   }
   handleInputChange(event) {

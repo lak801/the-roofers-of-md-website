@@ -1,8 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Slideshow from "./Slideshow";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+
 function Home() {
   return (
     <div>
