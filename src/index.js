@@ -13,13 +13,19 @@ import {
 
 ReactDOM.render(
   <Router>
-    <Navigation />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <div id="page-container">
+      <div id="content-wrap">
+        <Navigation />
+          <Routes>
+            
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            
+          </Routes>
+      </div>
     <Footer />
+    </div>
   </Router>,
 
   document.getElementById("root")

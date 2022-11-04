@@ -5,14 +5,14 @@ import { HiOutlineMail } from "react-icons/hi";
 function Call() {
   return (
     <Container id="float">
-      <Container id="phone">
-        <AiOutlinePhone />
-        <p>443-569-1511</p>
+      <Container className="call" id="phone">
+        <AiOutlinePhone className="icon" />
+        <a href="tel:+1443-569-1511">443-569-1511</a>
       </Container>
 
-      <Container id="email">
-        <HiOutlineMail />
-        <p id="email-text">info@theroofersofmd.com</p>
+      <Container className="call" id="email">
+        <HiOutlineMail className="icon" />
+        <a href="mailto:info@theroofersofmd.com">info@theroofersofmd.com</a>
       </Container>
     </Container>
   );
